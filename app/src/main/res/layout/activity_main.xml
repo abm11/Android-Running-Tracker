@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/DistanceRan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="200sp"
+            android:gravity="center"
+            android:text="Distance Ran"
+            android:textColor="#ff0000"
+            android:textSize="50sp" />
+
+        <TextView
+            android:id="@+id/distanceValue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:paddingBottom="20sp"
+            android:text="0 (m)"
+            android:textColor="#ff0000"
+            android:textSize="50sp" />
+
+
+        <Button
+            android:id="@+id/start_stop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="10"
+            android:onClick="serviceStartStop"
+            android:text="Start/stop run" />
+
+        <Button
+            android:id="@+id/start_stop3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="10"
+            android:onClick="historyActivity"
+            android:text="History" />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

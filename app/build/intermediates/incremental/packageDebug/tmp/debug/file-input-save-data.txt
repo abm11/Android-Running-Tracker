@@ -1,0 +1,7 @@
+#Internal package file, do not edit.
+#Mon Jan 28 05:16:20 GMT 2019
+0.baseType=DIRECTORY
+0.base=C\:\\Users\\Aaron\\Google Drive\\Uni Work\\Comp Sci - Yr 3\\Mobile Device Programming\\Code\\Running Tracker\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+0.path=classes.dex
+0.set=DEX
+count=1
